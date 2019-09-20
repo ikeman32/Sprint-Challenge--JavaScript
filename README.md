@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 A function is a series of code that is global in scope while a method is limited to the class or constructor function that contains it.
 
 3. What is closure?
-Closure is like a series of boxes inside one another, the inner most box can access anything outside of it all the way to the outside of the outer most box. But the outer boxes can not access anything in the inner boxes.
+Closure is like a series of boxes inside one another and each box has one way access, things go in but can't come out. So the inner most box can pull thing from outside but the outer most boxes can not pull from boxes on the inside. Or in mechanical terms they are one way valves.
 
 4. Describe the four rules of the 'this' keyword.
 
@@ -49,16 +49,16 @@ Follow these steps to set up and work on your project:
 - [x] Add TL as collaborator on Github.
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your team lead as a Reviewer on the Pull-request
-- [ ] TL then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your team lead as a Reviewer on the Pull-request
+- [x] TL then will count the HW as done by  merging the branch back into master.
 
 
 ## Minimum Viable Product
@@ -73,7 +73,7 @@ Test your knowledge of objects and arrays.
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [x] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
