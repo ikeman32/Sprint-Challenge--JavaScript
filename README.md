@@ -38,6 +38,12 @@ Closure is like a series of boxes inside one another and each box has one way ac
 
 4. Describe the four rules of the 'this' keyword.
 
+
+1. global/window
+2. implicit bound to an object 
+3. New bining to a specific instance of an object
+4. Explicit whenever a call or apply methods are used
+
 5. Why do we need super() in an extended class?
 We need super() in and extended class for inheritance, it tells thecompiler where to look for methods and properties that are in the parent class.
 
